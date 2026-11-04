@@ -1,0 +1,10 @@
+{
+  "name": "acme-payments-api",
+  "version": "1.0.0",
+  "description": "Demo payments service that still uses classical (quantum-vulnerable) cryptography",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": { "test": "node --test test/" },
+  "engines": { "node": ">=24" },
+  "license": "MIT"
+}
