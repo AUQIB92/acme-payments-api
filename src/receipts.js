@@ -2,5 +2,5 @@
 import crypto from 'node:crypto';
 
 export function receiptFingerprint(receipt) {
-  return crypto.createHash('md5').update(JSON.stringify(receipt)).digest('hex');
+  return crypto.createHash('sha256').update(JSON.stringify(receipt)).digest('hex');
 }
