@@ -2,5 +2,5 @@
 import crypto from 'node:crypto';
 
 export function createSigningKeys() {
-  return crypto.generateKeyPairSync('rsa', { modulusLength: 2048 });
+  return crypto.generateKeyPairSync('ml-dsa-65');
 }
